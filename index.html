@@ -5,7 +5,7 @@
 </head>
 <style>
     body{
-        background-image: url(imagens1/04bab7ce1854-75184859_4K.jpg);
+        background-image: url(04bab7ce1854-75184859_4K.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -158,18 +158,18 @@
 </body>
     <!--barra de início-->
     <div class="inicio">
-        <img src="imagens1/saldo imagem-Photoroom (2).png" onclick="saldo()"  id="imagemcarteira" height="63.6" width="81.7" style="float: right; cursor: pointer;"></img>
+        <img src="saldo imagem-Photoroom (2).png" onclick="saldo()"  id="imagemcarteira" height="63.6" width="81.7" style="float: right; cursor: pointer;"></img>
         <input type="number" id="saldo" style="float: right; margin-top: 35px;" value="0" readonly >
-        <img src="imagens1/iconecomfundo-removebg-preview.png" onclick="registarjogador()" id="imagem_icone" height="70px" width="70px" style="float: left; cursor: pointer;">
+        <img src="iconecomfundo-removebg-preview.png" onclick="registarjogador()" id="imagem_icone" height="70px" width="70px" style="float: left; cursor: pointer;">
         <input type="text" id="nomejogador" style="margin-top: 35px;float: left; display: none;">
     </div>  
 
     <!--funcionalidade de carregar saldo-->
     <div class="carregarsaldo" id="carregasaldo">
         <p style="text-align: center;"><b>Clique numa das notas para carregar o seu saldo:</b></p>
-        <img src="imagens1/nota20.jfif" id="nota20" onclick="carrega20()" style="height: 60px;width: 120px; display: block;margin-right: auto; margin-left: auto;margin-bottom: 10px;cursor: pointer;"></img>
-        <img src="imagens1/nota50 (2).jpg" id="nota50" onclick="carrega50()" style="height: 60px; width: 120px; display: block;margin-right: auto; margin-left: auto;margin-bottom: 10px; cursor: pointer;"></img>
-        <img src="imagens1/nota100 (2).jpg" id="nota100" onclick="carrega100()" style="height: 60px; width: 120px; display: block;margin-right: auto;margin-left: auto;margin-bottom: 10px;cursor: pointer;"></img>
+        <img src="nota20.jfif" id="nota20" onclick="carrega20()" style="height: 60px;width: 120px; display: block;margin-right: auto; margin-left: auto;margin-bottom: 10px;cursor: pointer;"></img>
+        <img src="nota50 (2).jpg" id="nota50" onclick="carrega50()" style="height: 60px; width: 120px; display: block;margin-right: auto; margin-left: auto;margin-bottom: 10px; cursor: pointer;"></img>
+        <img src="nota100 (2).jpg" id="nota100" onclick="carrega100()" style="height: 60px; width: 120px; display: block;margin-right: auto;margin-left: auto;margin-bottom: 10px;cursor: pointer;"></img>
         <button id="sairdocarregamento" onclick="sairdocarregamento()" style="margin-left: auto;margin-right: auto;left: 0;right: 0; align-self:center;display: block;">Sair</button>
     </div>
 
@@ -180,7 +180,7 @@
     <form>
          <p id="proposta" style="margin-top: 25px;">Quanto quer apostar?</p>
         <input type="number" id="apostado" style="margin-top: 15px;" min="1">
-        <img src="imagens1/Jogar-Photoroom.png" style="height: 200px; width: 200px;display: block; margin-left: auto;margin-right: auto; margin-top: 62px ; cursor: pointer;" onclick="iniciarjogo()">
+        <img src="Jogar-Photoroom.png" style="height: 200px; width: 200px;display: block; margin-left: auto;margin-right: auto; margin-top: 62px ; cursor: pointer;" onclick="iniciarjogo()">
     </form>
     </div>
 
@@ -191,7 +191,7 @@
            <div class="tentativasedicas">
             <p style="margin: left 100px; ;">Tentativas: <label id="tentativas">4</label><label>/4</label></p>
            <p style="margin:left 100px;">Dicas: <label id="numerodicas">1</label><label>/1</label></p>
-           <img src="imagens1/lightbulb.webp" id="imagemdica" onclick="dica()" style="cursor: pointer;">
+           <img src="lightbulb.webp" id="imagemdica" onclick="dica()" style="cursor: pointer;">
            </div>
            <br><input type="button" id="botaosortear" value="Sorteie" onclick="sortear()"> 
            <input type="number" id="valorsorteado" min="1" max="10" readonly disabled style="display: none; margin-left: 20px;"></br>
